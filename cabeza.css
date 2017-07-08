@@ -1,0 +1,25 @@
+#logo{
+    flex: 1;
+    background-image: url(cabeza/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 2.5em;
+}
+
+#nosotros{
+    flex: 1.4;
+    text-align:right;
+}
+
+#nosotros li{
+    display: inline-block;
+}
+
+#nosotros li:hover{
+    background: black;
+    color: blue;
+}
+
+#combo{
+    flex: 1;
+}

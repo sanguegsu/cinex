@@ -1,0 +1,28 @@
+#menu{
+    flex: 0.4;
+    display: flex;
+    flex-flow: row;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#a{
+   flex: 1;
+    background-color: fuchsia;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+#a:hover , #aimg:hover{
+    background-color:darkorchid;
+}
+
+#aimg{
+    flex: 0.3;
+}

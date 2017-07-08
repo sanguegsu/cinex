@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:arial;
+}
+body,html{
+	height: 100%;
+	width: 100%;
+}
+#contenedor1{
+    height: 100%;
+    width: 100%;
+    display: flex; 
+    background-color:black;
+    flex-flow:column;
+ 
+}
+#contenedor2{
+    height: 100%;
+    width: 100%;
+    display: flex; 
+    background-color:black;
+    flex-flow:column;
+    color: black
+    
+}
+/*#contenedor3{
+    height: 100%;
+    width: 100%;
+    display: flex; 
+    background-color:pink;
+    flex-flow:column;
+}*/
+#cabeza{
+    flex: 1;
+	color: white;
+    display: flex;
+	
+}
+#cuerpo{
+    flex: 3;
+	background-color: blue;
+	color: white;
+    display: flex;
+    flex-flow: column;
+	
+}
+#pie{
+    flex: 0.6;
+	color: white;
+	
+}
+
+#cabeza, #cuerpo, #pie{
+    margin: 0% 13% 0% 13%;
+}
+#cabeza1{
+    flex: 0.5;
+    display: flex;
+	color: yellow;
+    padding: 0.8%;
+    font-size: 5em;
+    
+}
+#cuerpo1{
+    flex: 3;
+	background-color: blue
+	color: white;
+    display: flex;
+    flex-flow: column;
+	
+}
+#pie1{
+    flex: 0.6;
+	color: white;	
+    display: flex;
+}
+
+#cobre > ul > li{
+    padding: 0.5em
+}
+
+#cobre > ul{
+    list-style: none;
+}
+
+#cobre{
+    display: flex;
+    flex: 1;
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+    color:aqua;
+}
+
+#precio > ul > li{
+    padding: 0.5em
+}
+
+#precio > ul{
+    list-style: none;
+}
+
+#precio{
+    display: flex;
+    flex: 1;
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+    color:aqua;
+}
+
+#cabeza1, #cuerpo1, #pie1{
+    margin: 0% 13% 0% 13%;
+}
+/*#cabeza3{
+    flex: 0.5;
+    color: white;
+    display: flex;
+    color: yellow;
+    padding: 0.8%;
+    background-color: darkred;
+    
+}
+#cuerpo3{
+    flex: 3;
+    background-color: blue;
+    color: white;
+    display: flex;
+    flex-wrap: row wrap;
+    
+}
+#pie3{
+    flex: 0.6;
+    color: white;
+    background-color: aqua
+    
+}
+
+#cabeza3, #cuerpo3, #pie3{
+    margin: 0% 13% 0% 13%;
+}*/

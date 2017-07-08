@@ -1,0 +1,60 @@
+#aa{
+    flex: 1.5;
+    margin: 1%;
+    border-bottom-left-radius: 10em;
+    border-bottom-right-radius: 10em;
+    border-top-left-radius: 10em;
+    border-top-right-radius: 10em;
+    background: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    d
+}
+
+#aaa{
+    flex: 1.5;
+    margin: 1%;
+    border-bottom-left-radius: 10em;
+    border-bottom-right-radius: 10em;
+    border-top-left-radius: 10em;
+    border-top-right-radius: 10em;
+    background: rgb(106,106,106);
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 10px;
+}
+
+#cajaimg{
+    min-height: 100%;
+    min-width: 30%;
+    margin: 0% 0% 0% 5%;
+    background-image: url(menu/reproductor.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+}
+
+#aaaa{
+    flex: 5;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#aaaaa{
+    flex: 1;
+    display: flex;
+}
+
+#aaaaaa{
+    flex: 1;
+    display: flex;
+}
+
+#aaaaaaa{
+    flex: 1;
+    display: flex;
+}
+
