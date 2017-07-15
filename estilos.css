@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:fantasy;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+.container1{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    padding: 0% 10% 0% 10%;
+}
+.container2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+.cabeza{
+    height: 20%;
+    width: 100%;
+}
+#logo{
+    height: 100%;
+    width: 50%;
+    background-image: url(Img/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    float: left;
+}
+#nosotros{
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+
+#nosotros > li{
+    list-style: none;
+    float: right;
+    padding: 0% 0% 0% 1%;
+}
+
+
+#nosotros li > a{
+    color: white;
+    text-decoration: none;
+}
+
+#nosotros li > a:hover{
+    transition: 1.4s;
+    background-color:darkblue;
+    color: white;
+    font-family: cursive;
+}
+.menu{
+    height: 4%;
+    width: 100%;
+    background-color: fuchsia;
+    text-align: center;
+}
+.container2 .menu a{
+    float:left;
+    width: 16%;
+    height: 50%;
+    text-decoration:none; 
+    color: white;
+    display:block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2 .menu a:hover{
+    transition: 1s;
+    background-color:darkblue;
+    color:white;
+    width: 16%;
+    height: 100%;
+    font-family:monospace;
+}
+#fondo{
+    background-image: url(Img/cuerpo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 70%;
+    width: 100%;
+}
+.footer{
+    height: 6%;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: darkblue;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+   
+} 
+.container2 .footer a{
+    height: 6%;
+    width: 100%;
+    color: white;
+     text-decoration: none;
+
+}
+#footer1{
+    height: 100%;
+    width: 50%;
+    padding-right: 30%;
+    padding-top: 1%;
+}
+#footer2{
+    height: 100%;
+    width: 50%;
+    padding-right: 30%;
+    padding-top: 1%;
+}
+#social{
+    height: 10%;
+    width: 10%;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    float: left;
+}
+#redes
